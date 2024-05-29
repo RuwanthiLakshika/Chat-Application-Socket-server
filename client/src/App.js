@@ -37,6 +37,7 @@ function App() {
       />
       <button onClick={joinRoom}> Join Room</button>
       <input 
+      className="input-field message-input"
       placeholder='Message...'
       onChange={(e) => setMessage(e.target.value)}
       />
